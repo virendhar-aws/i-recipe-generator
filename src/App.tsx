@@ -1,3 +1,12 @@
+import { useState } from "react";
+import type { FormEvent } from "react";
+import { Loader, Placeholder } from "@aws-amplify/ui-react";
+import "./App.css";
+import { Amplify } from "aws-amplify";
+import type { Schema } from "../amplify/data/resource";
+import { generateClient } from "aws-amplify/data";
+import outputs from "../amplify_outputs.json";
+
 import { FormEvent, useState } from "react";
 import { Loader, Placeholder } from "@aws-amplify/ui-react";
 import "./App.css";
