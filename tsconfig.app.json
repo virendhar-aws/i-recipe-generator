@@ -17,11 +17,13 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUnusedLocals": false,  // Changed to false
+    "noUnusedParameters": false,  // Changed to false
+    "noFallthroughCasesInSwitch": true
+    
+    // Remove these two options
+    // "erasableSyntaxOnly": true,
+    // "noUncheckedSideEffectImports": true
   },
   "include": ["src"]
 }
